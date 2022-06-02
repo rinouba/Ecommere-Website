@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 
+header
+*/
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    border-bottom: 1px solid slategray;
+}
+.logo{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.logo p{
+    font-size: 25px;
+    color: rgb(255, 157, 0);
+
+}
+.logo div{
+    font-size: 30px;
+    color: red;
+}
+.bigtopofhead{
+    position: absolute;
+    width: 85%;
+    left: 12%;
+}
+.bigtopofhead ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.bigtopofhead ul li{
+    padding: 15px 40px;
+    font-size: 15px;
+    opacity: 0.7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bigtopofhead ul li a{
+    color:#000;
+    text-decoration: none;
+}
+.bigtopofhead input{
+    width: 80%;
+    height: 40px;
+    font-size: 35px;
+    opacity: 0.7;
+    border-radius: 8px;
+}
+.bigtopofhead button{
+    width: 7%;
+    height: 40px;
+    margin-left: 2px;
+    border-radius: 3px;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+.divonright{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* 
+body
+*/
+
+section{
+    position: relative;
+    width: 99%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img1{
+    margin-top: 1px;
+    width: 100%;
+    height: 90vh;
+}
+.Buynow{
+    position: absolute;
+    z-index: 2;
+    top: 75%;
+    left: 15%;
+    width: 9%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.intop{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #20c997;    ;
+}
+.intop a {
+    color: #000;
+    font-size: 22px;
+    margin: 5px 20px 0;
+    text-decoration: none;
+}
+.art{
+    position: relative;
+    margin-top: 20px;
+    width: 30%;
+    height: 150px;
+    background-color: #fff;
+}
+.artclass{
+    position: absolute;
+    z-index: 4;
+    width: 45%;
+    height: 50%;
+}
+.art img{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top: 0;    
+    right: 0;
+    z-index: 0;
+}
+.art button{
+    margin-top: 7px;
+}
+.allart{
+    display: flex;
+    justify-content: space-around;
+}
+.Bestsell{
+    margin-top: 20px;
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 40px;
+    border-radius: 50px 0 50px 0;
+}
+.Bestsell p {
+    font-size: 30px;
+    margin-left: 30px;
+    color: gold;
+    font-family: monospace;
+}
+
+.artbest{
+    position: relative;
+    width: 24%;
+    height: 50vh;
+}
+.artbest img{
+    position: static;
+    width: 70%;
+    height: 80%;
+    top: 5;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.artbest button{
+    float: right;
+    margin-right: 20px;
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+}
+.allinbest{
+    width: 50%;
+    margin-left: 25%;
+}
+.allartsbest{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20vh;
+}
+.containers{
+    position: relative;
+    width: 33%;
+    height: 70vh;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.containers img{
+    width: 70%;
+    height: 40vh;
+    margin-left: 17%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.containers h4{
+    position: static;
+    margin-left: 35%;
+}
+
+.allipad{
+    display: flex;
+    justify-content: space-around;
+}
+.cls1{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(111,7,175,1) 100%);
+}
+.cls2{
+    background: rgb(20,160,171);
+background: linear-gradient(90deg, rgba(20,160,171,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.cls1 h4{
+    color: #fff;
+}
+.cls1 img{
+    width: 40%;
+    margin-left: 30%;
+}
+.cls2 img{
+    height: 30vh;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+.allin2{
+    display: flex;
+    justify-content: space-around;
+}
+.seclast{
+    margin-bottom: 20vh;
+}
+
+footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin:100px auto;
+}
+.footleft input{
+    width: 100%;
+}
+.footleft button{
+    width: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+footer ul{
+    list-style-type: none;
+}
+
+/* =============
+register
+=========== */
+
+
+.parent-of-form{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8) ;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  form{
+   background-color: #fff;
+   padding-top: 16px;
+   border-radius: 5px;
+    width: 35%;
+    transition: all 1s;
+  }
+  
+  
+  @media (max-width: 1000px) {
+    form{
+     
+      width: 60%;
+    }
+    }
+  
+  
+  
+  @media (max-width: 700px) {
+    form{
+     
+      width: 80%;
+    }
+    }
+  
+  
+   
+  
+    #close{
+       position: absolute;
+       top: 16px;
+       right: 20px;
+  
+       font-size: 22px;
+       opacity: 0.75;
+       transition: all 0.5s;
+    }
+  
+    #close:hover{
+    transform: rotate(180deg);
+  
+      font-size: 24px;
+      opacity: 1;
+      cursor: pointer;
+      font-weight: 600;
+   }
+  
+   .papa{
+     margin-top: 22px;
+   
+     position: relative;
+   }
+  
+  
+   .icon-check-circle{
+     color: #04AA6D;
+     font-size: 20px;
+     position: absolute;
+     top: 37px;
+     right: 16px;
+     opacity: 0;
+     transition: all 0.5s ;
+   }
+  
+  
+   .papa P{
+     font-size: 14px;
+     color: red;
+     
+     display: none;
+   }
+  
+   .false{
+     border: 2px red solid !important;
+   }
+   .true{
+    border: 2px rgb(0, 255, 128) solid !important;
+  }
+
+.parent-of-form{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8) ;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+form{
+ background-color: #fff;
+ padding-top: 16px;
+ border-radius: 5px;
+  width: 35%;
+  transition: all 1s;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+padding: 20px;
+}
+
+
+@media (max-width: 1000px) {
+  form{
+   
+    width: 60%;
+  }
+  }
+
+
+
+@media (max-width: 700px) {
+  form{
+   
+    width: 80%;
+  }
+  }
+
+
+ 
+
+  #close{
+     position: absolute;
+     top: 16px;
+     right: 20px;
+
+     font-size: 22px;
+     opacity: 0.75;
+     transition: all 0.5s;
+  }
+
+  #close:hover{
+  transform: rotate(180deg);
+
+    font-size: 24px;
+    opacity: 1;
+    cursor: pointer;
+    font-weight: 600;
+ }
+
+ .papa{
+   margin-top: 22px;
+ 
+   position: relative;
+ }
+
+
+ .icon-check-circle{
+   color: #04AA6D;
+   font-size: 20px;
+   position: absolute;
+   top: 37px;
+   right: 16px;
+   opacity: 0;
+   transition: all 0.5s ;
+ }
+
+
+ .papa P{
+   font-size: 14px;
+   color: red;
+   
+   display: none;
+ }
+
+ .false{
+   border: 2px red solid !important;
+ }
+ .true{
+  border: 2px rgb(0, 255, 128) solid !important;
+}
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email]  {
+    width: 100%;
+    padding: 15px;
+    margin: 5px  0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 21px 0  8px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .registerbtn:disabled {
+    opacity:0.4;
+    cursor: not-allowed;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  /* this is for black screen */
+
+  .blackscreen{
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: #4169E1   ;
+      z-index: 5;
+  }
+  
+  .thingibuy{
+      position: relative;
+      width: 80%;
+      height: 12vw;
+    margin: auto auto;
+    border-radius: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4682B4;
+    border-bottom: 5px solid #038dff;
+    border-left: 5px solid #008cff;
+    margin-bottom: 30px;
+  }
+  .thingibuy button{
+      width: 15%;
+      height: 50px;
+      margin-top: 90px;
+      margin-left: 15px;
+      border: none;
+      border-radius: 7px;
+  }
+  .thingibuy img{
+      width: 25%;
+      height: 10vw;
+      margin: 20px 10px;
+  }
+  .thingibuy p {
+      font-size: 30px;
+  }
+  .thingibuy #price{
+      color: red;
+      font-size: 25px;
+      margin-top: 90px;
+      width: 10%;
+  }
+  .thingibuy #name{
+      color: rgb(115, 246, 255);
+      margin-top: 90px;
+      width: 30%;
+      height: 3vw;
+  }
+  #closeblack{
+      margin: 40px;
+      font-size: 30px;
+      cursor: pointer;
+  }
+
+ 
